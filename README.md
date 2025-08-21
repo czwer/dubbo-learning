@@ -14,17 +14,32 @@ dubbo admin版本：0.6.0-release
 
 ### 一.ubuntu下JDK安装
 
-sudo apt install openjdk-17-jdk
+（1）安装openjdk-17：sudo apt install openjdk-17-jdk
 
-### 二.maven安装
+（2）ubuntu下JDK多版本下使用：
+
+（2.1）克隆jenv：git clone https://github.com/jenv/jenv.git ~/.jenv
+
+（2.2）配置环境：
+
+    echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bashrc
+    echo 'eval "$(jenv init -)"' >> ~/.bashrc
+
+（2.3）使.bashrc修改生效：source ~/.bashrc
+
+（2.4）jenv加入openjdk-17的管理：jenv add /usr/lib/jvm/java-17-openjdk-amd64
+
+（2.5）切换JDK版本：jenv global 17
+
+### 二.ubuntu下maven安装
 
 （1）maven下载地址：https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.zip
 
 （2）ubuntu下maven多版本下使用：
 
-sudo update-alternatives --install /usr/bin/mvn mvn /xxx/apache-maven-3.9.11/bin/mvn 3911
+（2.1）maven加入update-alternatives的管理：sudo update-alternatives --install /usr/bin/mvn mvn /xxx/apache-maven-3.9.11/bin/mvn 3911
 
-sudo update-alternatives --config mvn
+（2.2）选择maven版本，输入选择这一列的编号：sudo update-alternatives --config mvn
 
 ### 三.zookeeper安装
 
