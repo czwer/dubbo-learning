@@ -1,4 +1,6 @@
-项目介绍：用于学习dubbo相关源码，环境搭建时相关版本如下：
+### 项目介绍：
+
+用于学习dubbo相关源码，环境搭建时相关版本如下：
 
 dubbo的版本为：3.3.5
 
@@ -10,11 +12,11 @@ zookeeper版本：3.9.3
 
 dubbo admin版本：0.6.0-release
 
-一.ubuntu下JDK安装
+### 一.ubuntu下JDK安装
 
 sudo apt install openjdk-17-jdk
 
-二.maven安装
+### 二.maven安装
 
 （1）maven下载地址：https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.zip
 
@@ -24,7 +26,7 @@ sudo update-alternatives --install /usr/bin/mvn mvn /xxx/apache-maven-3.9.11/bin
 
 sudo update-alternatives --config mvn
 
-三.zookeeper安装
+### 三.zookeeper安装
 
 （1）zookeeper下载地址：https://dlcdn.apache.org/zookeeper/zookeeper-3.9.3/apache-zookeeper-3.9.3-bin.tar.gz
 
@@ -44,7 +46,7 @@ sudo update-alternatives --config mvn
 
 （5.2）后台启动：apache-zookeeper-3.9.3-bin/bin/zkServer.sh start
 
-四.dubbo admin安装
+### 四.dubbo admin安装
 
 （1）官网：https://github.com/apache/dubbo-admin
 
@@ -63,7 +65,7 @@ sudo update-alternatives --config mvn
 
 （3）访问地址：http://localhost:38080/#/ ，root/root
 
-五.dubbo
+### 五.dubbo
 
 （1）官方文档：https://cn.dubbo.apache.org/zh-cn/
 
