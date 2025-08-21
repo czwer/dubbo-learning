@@ -1,0 +1,106 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram name="第 1 页" id="xwlVY48jZOfA3PrioJLu">
+    <mxGraphModel dx="2253" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1j3soAuKBiSglBNwDgY3-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-757" y="220" width="2187" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-1" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;DubboDeployApplicationListener&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-6" y="340" width="330" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-2" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;DefaultModuleDeployer&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="370" y="340" width="250" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-4" value="&lt;span style=&quot;font-size: 20px; text-wrap-mode: wrap;&quot;&gt;exportServices()&lt;/span&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1j3soAuKBiSglBNwDgY3-2" vertex="1">
+          <mxGeometry x="35.63" y="110" width="180.75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-5" value="onApplicationEvent()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="48.370000000000005" y="450" width="225.63" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="1j3soAuKBiSglBNwDgY3-5" target="1j3soAuKBiSglBNwDgY3-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="540" as="sourcePoint" />
+            <mxPoint x="480" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-8" value="ZookeeperRegistry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="670" y="340" width="180.75" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-18" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center; font-size: 20px; text-wrap-mode: wrap;&quot;&gt;doRegister&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 20px; text-wrap-mode: wrap;&quot;&gt;()&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1j3soAuKBiSglBNwDgY3-8" vertex="1">
+          <mxGeometry x="17" y="110" width="146.75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-11" value="AbstractApplicationContext" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-673" y="340" width="260" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-12" value="finishRefresh()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-636.82" y="450" width="180.63" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-13" value="SimpleApplicationEventMulticaster" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="340" width="320" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-14" value="multicastEvent()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="450" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1j3soAuKBiSglBNwDgY3-12" target="1j3soAuKBiSglBNwDgY3-14" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-430" y="560" as="sourcePoint" />
+            <mxPoint x="-270" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-17" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="1j3soAuKBiSglBNwDgY3-14" target="1j3soAuKBiSglBNwDgY3-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-80" y="590" as="sourcePoint" />
+            <mxPoint x="80" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" parent="1" source="1j3soAuKBiSglBNwDgY3-4" target="1j3soAuKBiSglBNwDgY3-18" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="572.75" y="579" as="sourcePoint" />
+            <mxPoint x="650" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-21" value="Dubbo服务提供方注册到Zookeeper&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;流程&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-150" y="895" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-22" value="CuratorZookeeperClient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="900" y="340" width="220.75" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-23" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center; font-size: 20px; text-wrap-mode: wrap;&quot;&gt;createEphemeral&lt;/span&gt;&lt;span style=&quot;font-size: 20px; text-wrap-mode: wrap;&quot;&gt;()&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1j3soAuKBiSglBNwDgY3-22" vertex="1">
+          <mxGeometry x="20" y="110" width="180.75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-27" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.999;exitY=0.494;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="1j3soAuKBiSglBNwDgY3-18" target="1j3soAuKBiSglBNwDgY3-23" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="840" y="580" as="sourcePoint" />
+            <mxPoint x="1000" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-29" value="Spring代码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="271.5" y="890" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-30" value="Dubbo代码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="440" y="890" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-31" value="Zookeeper客户端代码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="610" y="890" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_5ooX8qzl-79SjFNeYgx-1" value="CuratorFramework" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1160" y="340" width="200.75" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="_5ooX8qzl-79SjFNeYgx-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center; font-size: 20px; text-wrap-mode: wrap;&quot;&gt;create&lt;/span&gt;&lt;span style=&quot;font-size: 20px; text-wrap-mode: wrap;&quot;&gt;()&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#d5e8d4;strokeColor=#82b366;" parent="_5ooX8qzl-79SjFNeYgx-1" vertex="1">
+          <mxGeometry x="27" y="110" width="146.75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_5ooX8qzl-79SjFNeYgx-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.996;exitY=0.571;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="1j3soAuKBiSglBNwDgY3-23" target="_5ooX8qzl-79SjFNeYgx-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="590" as="sourcePoint" />
+            <mxPoint x="1130" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QV-uhHedsgTvd6nu_QOP-1" value="refresh()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-633.3199999999999" y="400" width="180.63" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
