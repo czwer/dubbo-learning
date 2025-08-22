@@ -1,17 +1,14 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
   <diagram name="第 1 页" id="xwlVY48jZOfA3PrioJLu">
-    <mxGraphModel dx="4159" dy="2136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3204" dy="2539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1j3soAuKBiSglBNwDgY3-21" value="Dubbo中实现的重要Spring接口" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="-1060" y="1003" width="430" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="1j3soAuKBiSglBNwDgY3-29" value="Spring代码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="998" width="130" height="40" as="geometry" />
+          <mxGeometry x="-230" y="1400" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1j3soAuKBiSglBNwDgY3-30" value="Dubbo代码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-130" y="998" width="130" height="40" as="geometry" />
+          <mxGeometry x="220" y="1400" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MJl2RSiWA88DYP8mbdHT-1" value="«interface»&lt;br&gt;&lt;b&gt;NamespaceHandler&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-720" y="341" width="480" height="50" as="geometry" />
@@ -37,24 +34,6 @@
         <mxCell id="MJl2RSiWA88DYP8mbdHT-47" value="主要用途：2.7.x 及更早版本，解析xml中&amp;lt;dubbo:annotation /&amp;gt;，扫描Dubbo的@Service，@Reference注解&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="MJl2RSiWA88DYP8mbdHT-46" vertex="1">
           <mxGeometry y="26" width="480" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="MJl2RSiWA88DYP8mbdHT-54" value="«interface»&lt;br&gt;&lt;b&gt;BeanDefinitionRegistryPostProcessor&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-1570" y="573" width="480" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="MJl2RSiWA88DYP8mbdHT-55" value="&lt;span style=&quot;font-size: 20px; font-weight: 700;&quot;&gt;ServiceAnnotationPostProcessor&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-1570" y="623" width="480" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="MJl2RSiWA88DYP8mbdHT-56" value="主要用途：Dubbo较新版本解析@DubboService，@Service注解，注册ServiceBean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="MJl2RSiWA88DYP8mbdHT-55" vertex="1">
-          <mxGeometry y="26" width="480" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-1" value="«interface»&lt;br&gt;&lt;b&gt;InitializingBean&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-1570" y="818" width="480" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-2" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ServiceBean&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-1570" y="868" width="480" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-3" value="主要用途：将 Dubbo 服务注册到注册中心" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-2" vertex="1">
-          <mxGeometry y="26" width="480" height="34" as="geometry" />
-        </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-7" value="«interface»&lt;br&gt;&lt;b&gt;FactoryBean&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="96.5" y="1070" width="480" height="50" as="geometry" />
         </mxCell>
@@ -71,37 +50,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-16" value="&lt;span style=&quot;font-size: 20px; font-weight: 700;&quot;&gt;DubboConfigAliasPostProcessor&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="2360" y="866" width="480" height="60" as="geometry" />
+          <mxGeometry x="1520" y="900" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-17" value="主要用途：" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-16" vertex="1">
           <mxGeometry y="26" width="480" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-18" value="&lt;span style=&quot;font-size: 20px; font-weight: 700;&quot;&gt;DubboContextPostProcessor&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="2360" y="928" width="480" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-19" value="主要用途：" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-18" vertex="1">
-          <mxGeometry y="26" width="480" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-20" value="&lt;span style=&quot;font-size: 20px; font-weight: 700;&quot;&gt;DubboInfraBeanRegisterPostProcessor&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="2360" y="988" width="480" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-21" value="主要用途：" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-20" vertex="1">
-          <mxGeometry y="26" width="480" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-22" value="«interface»&lt;br&gt;&lt;b&gt;BeanFactoryPostProcessor&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-1570" y="523" width="480" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-29" value="&lt;b style=&quot;font-size: 20px;&quot;&gt;DubboAutoConfiguration&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-1570" y="367" width="480" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-30" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：注册&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: 700; text-align: center;&quot;&gt;ServiceAnnotationPostProcessor&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-29" vertex="1">
-          <mxGeometry y="26" width="480" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-31" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.501;exitY=0.991;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-30" target="kx4sPDKNxDJQQ7E9ZJhp-22" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1120" y="620" as="sourcePoint" />
-            <mxPoint x="-960" y="620" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DubboBeanUtils&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="96.5" y="621" width="480" height="90" as="geometry" />
@@ -122,7 +74,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-37" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DubboConfigConfigurationRegistrar&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-175" y="110" width="480" height="90" as="geometry" />
+          <mxGeometry x="-160" y="105" width="480" height="90" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-38" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-37" vertex="1">
           <mxGeometry y="26" width="480" height="64" as="geometry" />
@@ -134,57 +86,51 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-40" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DubboComponentScanRegistrar&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="380" y="110" width="480" height="90" as="geometry" />
+          <mxGeometry x="400" y="110" width="480" height="90" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-41" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-40" vertex="1">
           <mxGeometry y="26" width="480" height="64" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-43" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DubboContextPostProcessor&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="700" y="390" width="480" height="90" as="geometry" />
+          <mxGeometry x="1520" y="780" width="480" height="90" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-44" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-43" vertex="1">
           <mxGeometry y="26" width="480" height="64" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-48" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;@EnableDubboConfig&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-175" y="50" width="480" height="60" as="geometry" />
+          <mxGeometry x="-160" y="-90" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-49" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-48" vertex="1">
           <mxGeometry y="26" width="480" height="34" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-50" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;@DubboComponentScan&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="380" y="50" width="480" height="60" as="geometry" />
+          <mxGeometry x="395" y="-90" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-51" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-50" vertex="1">
           <mxGeometry y="26" width="480" height="34" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-52" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;@EnableDubbo&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="96.5" y="-90" width="480" height="60" as="geometry" />
+          <mxGeometry x="111.5" y="-230" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-53" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-52" vertex="1">
           <mxGeometry y="26" width="480" height="34" as="geometry" />
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-54" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.519;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-53" target="kx4sPDKNxDJQQ7E9ZJhp-50" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="590" y="80" as="sourcePoint" />
-            <mxPoint x="750" y="80" as="targetPoint" />
+            <mxPoint x="605" y="-60" as="sourcePoint" />
+            <mxPoint x="765" y="-60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-55" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.523;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-53" target="kx4sPDKNxDJQQ7E9ZJhp-48" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="570" y="-90" as="sourcePoint" />
-            <mxPoint x="690" y="-40" as="targetPoint" />
+            <mxPoint x="585" y="-230" as="sourcePoint" />
+            <mxPoint x="705" y="-180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-56" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.499;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-41" target="kx4sPDKNxDJQQ7E9ZJhp-34" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="710" y="270" as="sourcePoint" />
             <mxPoint x="870" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-57" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-44" target="kx4sPDKNxDJQQ7E9ZJhp-35" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="590" y="560" as="sourcePoint" />
-            <mxPoint x="750" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-58" value="«interface»&lt;br&gt;&lt;b&gt;BeanFactoryPostProcessor&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -202,40 +148,15 @@
             <mxPoint x="780" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-62" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.502;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-33" target="kx4sPDKNxDJQQ7E9ZJhp-58" edge="1">
+        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-62" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.502;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;fontSize=15;" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-33" target="kx4sPDKNxDJQQ7E9ZJhp-58" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="570" y="810" as="sourcePoint" />
             <mxPoint x="730" y="810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-63" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;spring.factories&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-1850" y="110" width="480" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-64" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;SpringBoot 1.x~2.6标准自动配置注册方式（旧方案）&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-63" vertex="1">
-          <mxGeometry y="26" width="480" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-65" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;AutoConfiguration.imports&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-1300" y="110" width="480" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-66" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;SpringBoot2.7+，替代spring.factories的自动配置部分（新方案）&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="kx4sPDKNxDJQQ7E9ZJhp-65" vertex="1">
-          <mxGeometry y="26" width="480" height="64" as="geometry" />
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-67" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-64" target="kx4sPDKNxDJQQ7E9ZJhp-29" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-830" y="360" as="sourcePoint" />
-            <mxPoint x="-670" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-68" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.516;exitY=1.016;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-66" target="kx4sPDKNxDJQQ7E9ZJhp-29" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-970" y="320" as="sourcePoint" />
-            <mxPoint x="-810" y="320" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-69" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" target="kx4sPDKNxDJQQ7E9ZJhp-1" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1330" y="714" as="sourcePoint" />
-            <mxPoint x="-770" y="747" as="targetPoint" />
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-30" value="注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontStyle=1" vertex="1" connectable="0" parent="kx4sPDKNxDJQQ7E9ZJhp-62">
+          <mxGeometry x="-0.1855" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kx4sPDKNxDJQQ7E9ZJhp-70" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-60" target="kx4sPDKNxDJQQ7E9ZJhp-7" edge="1">
@@ -256,8 +177,98 @@
             <mxPoint x="-320" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7cc9NkJdc3gj587qjg6O-1" value="SpringBoot代码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="998" width="160" height="40" as="geometry" />
+        <mxCell id="7cc9NkJdc3gj587qjg6O-1" value="SpringBoot代码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="1400" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-1" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ReferenceBeanManager&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-550" y="1104" width="480" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;解决循环依赖问题，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;集中式管理ReferenceBean&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="r4sQ5H7cFToyG9vY6RSI-1">
+          <mxGeometry y="26" width="480" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-4" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="r4sQ5H7cFToyG9vY6RSI-2" target="kx4sPDKNxDJQQ7E9ZJhp-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-150" y="1250" as="sourcePoint" />
+            <mxPoint x="10" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-5" value="«interface»&lt;br&gt;&lt;b&gt;BeanDefinitionRegistryPostProcessor&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="900" y="611" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-6" value="&lt;span style=&quot;font-size: 20px; font-weight: 700;&quot;&gt;ServiceAnnotationPostProcessor&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="900" y="661" width="480" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-7" value="主要用途：Dubbo较新版本解析@DubboService，@Service注解，注册ServiceBean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="r4sQ5H7cFToyG9vY6RSI-6">
+          <mxGeometry y="26" width="480" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-8" value="«interface»&lt;br&gt;&lt;b&gt;InitializingBean&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="896" y="1070" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-9" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;ServiceBean&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="896" y="1120" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-10" value="主要用途：将 Dubbo 服务注册到注册中心" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="r4sQ5H7cFToyG9vY6RSI-9">
+          <mxGeometry y="26" width="480" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-11" value="«interface»&lt;br&gt;&lt;b&gt;BeanFactoryPostProcessor&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="900" y="561" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-21" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.5;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="r4sQ5H7cFToyG9vY6RSI-8" source="r4sQ5H7cFToyG9vY6RSI-35">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1130" y="1004" as="sourcePoint" />
+            <mxPoint x="1690" y="1037" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-22" value="«interface»&lt;br&gt;&lt;b&gt;ImportBeanDefinitionRegistrar&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="111.5" y="10" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-23" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.511;exitY=0.969;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-51" target="kx4sPDKNxDJQQ7E9ZJhp-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1140" y="150" as="sourcePoint" />
+            <mxPoint x="1300" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-24" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.494;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-49" target="kx4sPDKNxDJQQ7E9ZJhp-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" as="sourcePoint" />
+            <mxPoint x="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-25" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="r4sQ5H7cFToyG9vY6RSI-22" target="kx4sPDKNxDJQQ7E9ZJhp-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="980" y="20" as="sourcePoint" />
+            <mxPoint x="1140" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-26" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="r4sQ5H7cFToyG9vY6RSI-22" target="kx4sPDKNxDJQQ7E9ZJhp-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1100" y="30" as="sourcePoint" />
+            <mxPoint x="1260" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-27" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.754;exitY=0.989;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;fontSize=14;fontStyle=1;strokeWidth=2;" edge="1" parent="1" source="kx4sPDKNxDJQQ7E9ZJhp-41" target="r4sQ5H7cFToyG9vY6RSI-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="760" y="270" as="sourcePoint" />
+            <mxPoint x="1130" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;ClassPathBeanDefinitionScanner&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="896" y="826" width="480" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-33" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：扫描Bean定义&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="r4sQ5H7cFToyG9vY6RSI-32">
+          <mxGeometry y="26" width="480" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-34" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DubboClassPathBeanDefinitionScanner&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="896" y="916" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-35" value="主要用途：" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="r4sQ5H7cFToyG9vY6RSI-34">
+          <mxGeometry y="26" width="480" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="r4sQ5H7cFToyG9vY6RSI-37" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.492;exitY=1.042;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="r4sQ5H7cFToyG9vY6RSI-7" target="r4sQ5H7cFToyG9vY6RSI-32">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1470" y="1180" as="sourcePoint" />
+            <mxPoint x="1630" y="1180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
