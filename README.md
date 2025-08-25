@@ -11,3 +11,7 @@ maven版本：3.9.11
 zookeeper版本：3.9.3
 
 dubbo admin版本：0.6.0-release
+
+官方源代码：https://github.com/apache/dubbo
+
+官方文档：https://cn.dubbo.apache.org/zh-cn/
