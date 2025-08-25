@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
   <diagram name="第 1 页" id="xwlVY48jZOfA3PrioJLu">
-    <mxGraphModel dx="3204" dy="2539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="1991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="MJl2RSiWA88DYP8mbdHT-23" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DubboNamespaceHandler&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-720" y="391" width="480" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="MJl2RSiWA88DYP8mbdHT-24" value="主要用途：解析xml命名空间解析，具体标签的解析交给DubboBeanDefinitionParser处理" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="MJl2RSiWA88DYP8mbdHT-23" vertex="1">
+        <mxCell id="MJl2RSiWA88DYP8mbdHT-24" value="主要用途：xml命名空间解析，具体标签的解析交给DubboBeanDefinitionParser处理" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="MJl2RSiWA88DYP8mbdHT-23" vertex="1">
           <mxGeometry y="26" width="480" height="64" as="geometry" />
         </mxCell>
         <mxCell id="MJl2RSiWA88DYP8mbdHT-43" value="«interface»&lt;br&gt;&lt;b&gt;BeanDefinitionParser&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -270,22 +270,22 @@
             <mxPoint x="1630" y="1180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-1" value="&lt;b&gt;AbstractProxyInvoker&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-1" value="&lt;b&gt;AbstractProxyInvoker&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="1640" y="180" width="480" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-2" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;接入cat涉及改造该类&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="OFLG1O5rRiMJ6OSDFT6b-1">
+        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-2" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;接入cat涉及改造该类&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="OFLG1O5rRiMJ6OSDFT6b-1" vertex="1">
           <mxGeometry y="26" width="480" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DubboContextPostProcessor&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;DubboContextPostProcessor&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1640" y="370" width="480" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-4" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="OFLG1O5rRiMJ6OSDFT6b-3">
+        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-4" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="OFLG1O5rRiMJ6OSDFT6b-3" vertex="1">
           <mxGeometry y="26" width="480" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-5" value="&lt;span&gt;&lt;b&gt;AbstractInvoker&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-5" value="&lt;span&gt;&lt;b&gt;AbstractInvoker&lt;/b&gt;&lt;/span&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#d79b00;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="1640" y="-10" width="480" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-6" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;接入cat涉及改造该类&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="OFLG1O5rRiMJ6OSDFT6b-5">
+        <mxCell id="OFLG1O5rRiMJ6OSDFT6b-6" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用途：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;接入cat涉及改造该类&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=20;" parent="OFLG1O5rRiMJ6OSDFT6b-5" vertex="1">
           <mxGeometry y="26" width="480" height="64" as="geometry" />
         </mxCell>
       </root>

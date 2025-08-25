@@ -23,8 +23,8 @@
     </modules>
 
     <properties>
-        <spring-boot.version>3.2.5</spring-boot.version>
-        <dubbo-boot.version>3.3.5</dubbo-boot.version>
+        <spring-boot.version>3.5.0</spring-boot.version>
+        <dubbo-boot.version>3.3.5-add-more-logging</dubbo-boot.version>
         <dubbo.dependencies.zookeeper>3.2.18</dubbo.dependencies.zookeeper>
         <maven.compiler.plugin>3.8.1</maven.compiler.plugin>
         <maven.compiler.source>17</maven.compiler.source>
