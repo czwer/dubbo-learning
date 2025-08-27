@@ -15,3 +15,5 @@ dubbo admin版本：0.6.0-release
 官方源代码：https://github.com/apache/dubbo
 
 官方文档：https://cn.dubbo.apache.org/zh-cn/
+
+官方源码解析：https://cn.dubbo.apache.org/zh-cn/blog/java/codeanalysis/3.0.8/
