@@ -15,8 +15,6 @@ public class DubboProviderApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(DubboProviderApplication.class, args);
         ConfigurableListableBeanFactory beanFactory = context.getBeanFactory();
-        ServiceAnnotationPostProcessor bean = beanFactory.getBean(ServiceAnnotationPostProcessor.class);
-        System.out.println(bean);
         System.out.println("DubboProviderApplication已启动");
     }
 }
