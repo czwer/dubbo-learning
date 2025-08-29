@@ -7,7 +7,9 @@
        http://dubbo.apache.org/schema/dubbo
        http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
-    <dubbo:application name="dubbo-learning-consumer"></dubbo:application>
+    <dubbo:application name="dubbo-learning-consumer">
+        <dubbo:parameter key="qos.port" value="22223"/>
+    </dubbo:application>
 
     <dubbo:registry address="zookeeper://127.0.0.1:2181"></dubbo:registry>
 
