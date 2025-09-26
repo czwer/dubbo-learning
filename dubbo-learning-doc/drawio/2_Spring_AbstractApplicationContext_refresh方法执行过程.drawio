@@ -1,0 +1,103 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
+    <mxGraphModel dx="2253" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qlxX7Fygw9MmZmLqK2NQ-1" value="AbstractApplicationContext" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="170.51" y="160" width="353" height="2420" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-2" value="" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-100" y="250" width="940" height="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-4" value="PostProcessorRegistrationDelegate" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1026.49" y="160" width="418" height="2410" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-10" value="&lt;div&gt;prepareBeanFactory()：配置 BeanFactory&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="500" width="900" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-15" value="&lt;span style=&quot;font-size: 20px; background-color: transparent;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;refresh()&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="287" y="283" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-27" value="prepareRefresh()：准备刷新" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="201.26" y="350" width="277.79" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-28" value="&lt;div&gt;包含以下逻辑：&lt;/div&gt;&lt;div&gt;设置类加载器，&lt;/div&gt;&lt;div&gt;设置表达式解析器：StandardBeanExpressionResolver，&lt;/div&gt;&lt;div&gt;添加属性编辑器注册器：ResourceEditorRegistrar，&lt;/div&gt;&lt;div&gt;添加&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BeanPostProcessor：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ApplicationContextAwareProcessor，处理Aware接口回调，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;忽略依赖注入接口：EnvironmentAware，&lt;/div&gt;&lt;div&gt;忽略依赖注入接口：EmbeddedValueResolverAware，&lt;/div&gt;&lt;div&gt;忽略依赖注入接口：ResourceLoaderAware，&lt;/div&gt;&lt;div&gt;忽略依赖注入接口：ApplicationEventPublisherAware，&lt;/div&gt;&lt;div&gt;忽略依赖注入接口：MessageSourceAware，&lt;/div&gt;&lt;div&gt;忽略依赖注入接口：ApplicationContextAware，&lt;/div&gt;&lt;div&gt;忽略依赖注入接口：ApplicationStartupAware，&lt;/div&gt;&lt;div&gt;注册可解析的依赖：BeanFactory，&lt;/div&gt;&lt;div&gt;注册可解析的依赖：ResourceLoader，&lt;/div&gt;&lt;div&gt;注册可解析的依赖：ApplicationEventPublisher，&lt;/div&gt;&lt;div&gt;注册可解析的依赖：ApplicationContext，&lt;/div&gt;&lt;div&gt;添加&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;BeanPostProcessor：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ApplicationListenerDetector，用于事件监听，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;添加&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;BeanPostProcessor：&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LoadTimeWeaverAwareProcessor，加载时织入，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;注册单例Bean：&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;environment(&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;ApplicationEnvironment&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;注册单例Bean：&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;systemProperties(&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Properties&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;注册单例Bean：&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;systemEnvironment(Map)，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;注册单例Bean：&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;applicationStartup(&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;DefaultApplicationStartup&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=0;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-73.65" y="542" width="834.28" height="538" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-45" value="obtainFreshBeanFactory()：创建DefaultListableBeanFactory" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="18.59" y="430" width="649.8" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ymltCve2k1oxN2BTnrI2-26" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;invokeBeanFactoryPostProcessors()：&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;调用BeanFactoryPostProcessor，允许修改bean定义&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="940.49" y="1205" width="590" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ymltCve2k1oxN2BTnrI2-30" value="postProcessBeanFactory()：BeanFactory后处理，目前空方法，子类可覆盖" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="11" y="1125" width="677.99" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ymltCve2k1oxN2BTnrI2-31" value="initMessageSource()：初始化消息源" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="35.159999999999854" y="1827" width="610" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ymltCve2k1oxN2BTnrI2-34" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;registerBeanPostProcessors()：注册BeanPostProcessor后处理器，&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;用于后续Bean实例的增强&lt;/b&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="1380" width="900" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="ymltCve2k1oxN2BTnrI2-37" value="initApplicationEventMulticaster()：初始化应用事件广播器，SimpleApplicationEventMulticaster" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="1897" width="890" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ymltCve2k1oxN2BTnrI2-40" value="onRefresh()：模板方法，允许子类扩展" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="35.159999999999854" y="1977" width="610" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dbyZfYUz2kLOAnTONdro-2" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;invokeBeanFactoryPostProcessors()：&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-85" y="1187.5" width="900" height="172.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dbyZfYUz2kLOAnTONdro-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dbyZfYUz2kLOAnTONdro-6" target="ymltCve2k1oxN2BTnrI2-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="1580" as="sourcePoint" />
+            <mxPoint x="990" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dbyZfYUz2kLOAnTONdro-6" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;执行&lt;/span&gt;BeanFactoryPostProcessor&lt;span style=&quot;text-align: center;&quot;&gt;后处理器&lt;/span&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=0;align=left;verticalAlign=top;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="1220" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dbyZfYUz2kLOAnTONdro-7" value="&lt;div&gt;如不存在，添加&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;BeanPostProcessor：&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LoadTimeWeaverAwareProcessor，加载时织入，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=0;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-70" y="1270.5" width="810" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dbyZfYUz2kLOAnTONdro-8" value="registerListeners()：注册所有实现ApplicationListener接口的Bean" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="31" y="2067" width="610" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dbyZfYUz2kLOAnTONdro-9" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;finishBeanFactoryInitialization()：完成BeanFactory初始化&lt;/font&gt;&lt;/b&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="31" y="2147" width="610" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dbyZfYUz2kLOAnTONdro-10" value="finishRefresh()：完成刷新" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="30" y="2237" width="610" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="xFdA69rrjuJf7-wz1iBH-1" value="DefaultListableBeanFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1720" y="160" width="418" height="2390" as="geometry" />
+        </mxCell>
+        <mxCell id="xFdA69rrjuJf7-wz1iBH-2" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;preInstantiateSingletons&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;()：实例化所有单例Bean&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="2144" width="673.01" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xFdA69rrjuJf7-wz1iBH-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dbyZfYUz2kLOAnTONdro-9" target="xFdA69rrjuJf7-wz1iBH-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="990" y="2137" as="sourcePoint" />
+            <mxPoint x="1040" y="2087" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K_VezLQahr5ftIT8S5_p-1" value="&lt;div&gt;（1）已有BeanPostProcessor：&lt;/div&gt;&lt;div&gt;ApplicationContextAwareProcessor&lt;/div&gt;&lt;div&gt;ApplicationListenerDetector&lt;/div&gt;&lt;div&gt;ConfigurationClassPostProcessor&lt;/div&gt;&lt;div&gt;ReferenceAnnotationBeanPostProcessor&lt;/div&gt;&lt;div&gt;（2）新增BeanPostProcessor：&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;DubboConfigDefaultPropertyValueBeanPostProcessor&lt;span style=&quot;background-color: transparent;&quot;&gt;(PriorityOrdered)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;ConfigurationPropertiesBindingPostProcessor&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PriorityOrdered，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;springboot)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;CommonAnnotationBeanPostProcessor(PriorityOrdered)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;AutowiredAnnotationBeanPostProcessor(PriorityOrdered)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;InfrastructureAdvisorAutoProxyCreator(Ordered)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;DubboConfigAliasPostProcessor&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;ApplicationListenerDetector&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=0;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-67.15" y="1430" width="834.28" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="lw6g54n697Em0xE6syUv-1" value="AbstractBeanFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="2370" y="160" width="260" height="2370" as="geometry" />
+        </mxCell>
+        <mxCell id="lw6g54n697Em0xE6syUv-2" value="getBean()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="2409.68" y="2146.5" width="180.63" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lw6g54n697Em0xE6syUv-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="xFdA69rrjuJf7-wz1iBH-2" target="lw6g54n697Em0xE6syUv-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2890" y="2270" as="sourcePoint" />
+            <mxPoint x="2940" y="2220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
