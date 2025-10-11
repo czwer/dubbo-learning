@@ -1,0 +1,112 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
+    <mxGraphModel dx="706" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tHCy42ypWK_uThyhraDl-21" value="InstantiationAwareBeanPostProcessor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="83.5" width="360" height="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-22" value="" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="265" width="700" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;postProcessBeforeInstantiation()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-36" value="实现类：&lt;div&gt;&lt;div&gt;ImportAwareBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;ReferenceAnnotationBeanPostProcessor(dubbo)&lt;/div&gt;&lt;div&gt;InfrastructureAdvisorAutoProxyCreator(spring)&lt;/div&gt;&lt;div&gt;CommonAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;AutowiredAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="310.5" width="680" height="254.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n19u1ry27cD0LqS_BJkc-1" value="MergedBeanDefinitionPostProcessor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="83.5" width="360" height="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="n19u1ry27cD0LqS_BJkc-2" value="" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1850" y="265" width="700" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="n19u1ry27cD0LqS_BJkc-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;postProcessMergedBeanDefinition()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19u1ry27cD0LqS_BJkc-4" value="实现类：&lt;div&gt;&lt;div&gt;ReferenceAnnotationBeanPostProcessor(dubbo)&lt;/div&gt;&lt;div&gt;DubboConfigDefaultPropertyValueBeanPostProcessor(dubbo)&lt;/div&gt;&lt;div&gt;CommonAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;AutowiredAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;ApplicationListenerDetector(spring)&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1860" y="310.5" width="680" height="254.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n19u1ry27cD0LqS_BJkc-5" value="BeanPostProcessor" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2850" y="83.5" width="360" height="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="n19u1ry27cD0LqS_BJkc-6" value="" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2680" y="265" width="700" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="n19u1ry27cD0LqS_BJkc-7" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;postProcessBeforeInitialization()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2870" y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19u1ry27cD0LqS_BJkc-8" value="实现类：&lt;div&gt;&lt;div&gt;ApplicationContextAwareProcessor(spring)&lt;/div&gt;&lt;div&gt;ImportAwareBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;ReferenceAnnotationBeanPostProcessor(dubbo)&lt;/div&gt;&lt;div&gt;BeanPostProcessorChecker(spring)&lt;/div&gt;&lt;div&gt;ConfigurationPropertiesBindingPostProcessor(springboot)&lt;/div&gt;&lt;div&gt;InfrastructureAdvisorAutoProxyCreator(spring)&lt;/div&gt;&lt;div&gt;DubboConfigAliasPostProcessor(dubbo)&lt;/div&gt;&lt;div&gt;DubboConfigDefaultPropertyValueBeanPostProcessor(dubbo)&lt;/div&gt;&lt;div&gt;CommonAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;AutowiredAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;ApplicationListenerDetector(spring)&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2690" y="310.5" width="680" height="329.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n19u1ry27cD0LqS_BJkc-9" value="" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="2680" y="800" width="700" height="395" as="geometry" />
+        </mxCell>
+        <mxCell id="n19u1ry27cD0LqS_BJkc-10" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;postProcessAfterInitialization()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2870" y="805" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n19u1ry27cD0LqS_BJkc-11" value="实现类：&lt;div&gt;&lt;div&gt;ApplicationContextAwareProcessor(spring)&lt;/div&gt;&lt;div&gt;ImportAwareBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;ReferenceAnnotationBeanPostProcessor(dubbo)&lt;/div&gt;&lt;div&gt;BeanPostProcessorChecker(spring)&lt;/div&gt;&lt;div&gt;ConfigurationPropertiesBindingPostProcessor(springboot)&lt;/div&gt;&lt;div&gt;InfrastructureAdvisorAutoProxyCreator(spring)&lt;/div&gt;&lt;div&gt;DubboConfigAliasPostProcessor(dubbo)&lt;/div&gt;&lt;div&gt;DubboConfigDefaultPropertyValueBeanPostProcessor(dubbo)&lt;/div&gt;&lt;div&gt;CommonAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;AutowiredAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;ApplicationListenerDetector(spring)&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2690" y="845.5" width="680" height="329.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yI-EZk0S1EZzeun1jOw1-1" value="" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="640" width="700" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="yI-EZk0S1EZzeun1jOw1-2" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;postProcessAfterInstantiation()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="645" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yI-EZk0S1EZzeun1jOw1-3" value="实现类：&lt;div&gt;&lt;div&gt;ImportAwareBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;ReferenceAnnotationBeanPostProcessor(dubbo)&lt;/div&gt;&lt;div&gt;InfrastructureAdvisorAutoProxyCreator(spring)&lt;/div&gt;&lt;div&gt;CommonAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;AutowiredAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="685.5" width="680" height="254.5" as="geometry" />
+        </mxCell>
+        <mxCell id="yI-EZk0S1EZzeun1jOw1-4" value="" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="1020" width="700" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="yI-EZk0S1EZzeun1jOw1-5" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;postProcessProperties()&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="1025" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yI-EZk0S1EZzeun1jOw1-6" value="实现类：&lt;div&gt;&lt;div&gt;ImportAwareBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;ReferenceAnnotationBeanPostProcessor(dubbo)&lt;/div&gt;&lt;div&gt;InfrastructureAdvisorAutoProxyCreator(spring)&lt;/div&gt;&lt;div&gt;CommonAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;div&gt;AutowiredAnnotationBeanPostProcessor(spring)&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="1065.5" width="680" height="254.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HYX28rAuKxNnxE_PqR8u-1" value="«interface»&lt;br&gt;&lt;span&gt;BeanPostProcessor&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2975" y="1380" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HYX28rAuKxNnxE_PqR8u-2" value="«interface»&lt;br&gt;DestructionAwareBeanPostProcessor" style="html=1;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="1636" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HYX28rAuKxNnxE_PqR8u-3" value="«interface»&lt;br&gt;InstantiationAwareBeanPostProcessor" style="html=1;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="1636" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HYX28rAuKxNnxE_PqR8u-4" value="«interface»&lt;br&gt;MergedBeanDefinitionPostProcessor" style="html=1;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="3340" y="1636" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HYX28rAuKxNnxE_PqR8u-6" value="«interface»&lt;br&gt;SmartInstantiationAwareBeanPostProcessor" style="html=1;whiteSpace=wrap;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2895" y="1870" width="410" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HYX28rAuKxNnxE_PqR8u-8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYX28rAuKxNnxE_PqR8u-2" target="HYX28rAuKxNnxE_PqR8u-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2670" y="1430" as="sourcePoint" />
+            <mxPoint x="2830" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYX28rAuKxNnxE_PqR8u-9" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HYX28rAuKxNnxE_PqR8u-3" target="HYX28rAuKxNnxE_PqR8u-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2940" y="1520" as="sourcePoint" />
+            <mxPoint x="3100" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYX28rAuKxNnxE_PqR8u-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYX28rAuKxNnxE_PqR8u-4" target="HYX28rAuKxNnxE_PqR8u-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="3510" y="1450" as="sourcePoint" />
+            <mxPoint x="3670" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYX28rAuKxNnxE_PqR8u-11" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HYX28rAuKxNnxE_PqR8u-6" target="HYX28rAuKxNnxE_PqR8u-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2970" y="1950" as="sourcePoint" />
+            <mxPoint x="3130" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
