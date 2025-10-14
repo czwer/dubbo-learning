@@ -9,7 +9,10 @@
     org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean，469行，核心作用，创建Bean的核心方法
     org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance，1191,核心作用：Bean实例化的核心方法
     org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor，91行，核心作用：构造函数注入的核心方法
-    org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean，1418行，核心作用：属性注入的核心方法
+    org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean，1418行，核心作用：Setter注入和字段注入，方法注入的核心方法
+    org.springframework.beans.factory.annotation.InjectionMetadata.InjectedElement.inject，265行，核心作用：@Resource字段依赖注入反射调用
+    org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.AutowiredFieldElement.inject，719行，核心作用：@Autowired字段依赖注入反射调用
+    org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.AutowiredMethodElement.inject，799行，核心作用：@Autowired方法依赖注入反射调用
 
 
 （1）Spring中其他容易混淆的概念有哪些？
