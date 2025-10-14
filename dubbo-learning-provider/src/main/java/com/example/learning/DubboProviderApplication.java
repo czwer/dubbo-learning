@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ImportResource;
 
-@ImportResource("classpath:dubbo-provider.xml")
+@ImportResource({"classpath:dubbo-provider.xml","classpath:spring-beans.xml"})
 @EnableDubbo
 @SpringBootApplication
 public class DubboProviderApplication {

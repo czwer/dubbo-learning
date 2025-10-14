@@ -8,6 +8,8 @@ import org.springframework.stereotype.Component;
 @DubboService
 @Component
 public class UserUpdateServiceImpl implements UserUpdateService {
+
+
     @Override
     public Integer createUser(UserDTO userDTO) {
         System.out.println("开始模拟保存数据库");
