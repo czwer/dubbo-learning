@@ -82,6 +82,21 @@
                 <artifactId>dubbo-zookeeper-curator5-spring-boot-starter</artifactId>
                 <version>${dubbo-boot.version}</version>
             </dependency>
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>3.0.5</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mysql</groupId>
+                <artifactId>mysql-connector-j</artifactId>
+                <version>8.4.0</version>
+            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>com.mysql</groupId>-->
+<!--                <artifactId>mysql-connector-j</artifactId>-->
+<!--                <version>9.4.0</version>-->
+<!--            </dependency>-->
         </dependencies>
     </dependencyManagement>
 

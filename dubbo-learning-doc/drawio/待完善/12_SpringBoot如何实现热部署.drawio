@@ -1,0 +1,73 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="第 1 页" id="xwlVY48jZOfA3PrioJLu">
+    <mxGraphModel dx="2328" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1j3soAuKBiSglBNwDgY3-1" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;DubboNamespaceHandler&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-6" y="340" width="330" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-2" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;DubboBeanDefinitionParser&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="370" y="340" width="280" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-4" value="&lt;span style=&quot;font-size: 20px; text-wrap-mode: wrap;&quot;&gt;parse()&lt;/span&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1j3soAuKBiSglBNwDgY3-2" vertex="1">
+          <mxGeometry x="44.620000000000005" y="196" width="180.75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-5" value="parse()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="40.00000000000001" y="536" width="225.63" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="1j3soAuKBiSglBNwDgY3-5" target="1j3soAuKBiSglBNwDgY3-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="540" as="sourcePoint" />
+            <mxPoint x="480" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-8" value="DubboConfigApplicationListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="690" y="340" width="300.75" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-18" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center; font-size: 20px; text-wrap-mode: wrap;&quot;&gt;onApplicationEvent&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 20px; text-wrap-mode: wrap;&quot;&gt;()&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1j3soAuKBiSglBNwDgY3-8" vertex="1">
+          <mxGeometry x="40" y="297" width="200.75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-22" value="DubboConfigBeanInitializer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1028" y="340" width="250.75" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-23" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center; font-size: 20px; text-wrap-mode: wrap;&quot;&gt;afterPropertiesSet&lt;/span&gt;&lt;span style=&quot;font-size: 20px; text-wrap-mode: wrap;&quot;&gt;()&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1j3soAuKBiSglBNwDgY3-22" vertex="1">
+          <mxGeometry x="20" y="296" width="180.75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-27" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.999;exitY=0.494;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="1j3soAuKBiSglBNwDgY3-18" target="1j3soAuKBiSglBNwDgY3-23" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="840" y="580" as="sourcePoint" />
+            <mxPoint x="1000" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-29" value="Spring代码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="271.5" y="890" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-30" value="Dubbo代码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="440" y="890" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1j3soAuKBiSglBNwDgY3-31" value="Zookeeper客户端代码" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="610" y="890" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_5ooX8qzl-79SjFNeYgx-1" value="AbstractConfigManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="340" width="220.75" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="_5ooX8qzl-79SjFNeYgx-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: center; font-size: 20px; text-wrap-mode: wrap;&quot;&gt;addConfig&lt;/span&gt;&lt;span style=&quot;font-size: 20px; text-wrap-mode: wrap;&quot;&gt;()&lt;/span&gt;&lt;/div&gt;" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#ffe6cc;strokeColor=#d79b00;" parent="_5ooX8qzl-79SjFNeYgx-1" vertex="1">
+          <mxGeometry x="27" y="296" width="146.75" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_5ooX8qzl-79SjFNeYgx-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.996;exitY=0.571;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="1j3soAuKBiSglBNwDgY3-23" target="_5ooX8qzl-79SjFNeYgx-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="590" as="sourcePoint" />
+            <mxPoint x="1130" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BcHeCY4vZ8eA-erhApD-3" value="&lt;div&gt;@EnableSpringConfigured&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;@Autowired&lt;/div&gt;&lt;div&gt;@Configurable&lt;/div&gt;&lt;div&gt;@Lookup&lt;/div&gt;&lt;div&gt;@Qualifier&lt;/div&gt;&lt;div&gt;@Value&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;@Cacheable&lt;/div&gt;&lt;div&gt;@CacheConfig&lt;/div&gt;&lt;div&gt;@CacheEvict&lt;/div&gt;&lt;div&gt;@CachePut&lt;/div&gt;&lt;div&gt;@Caching&lt;/div&gt;&lt;div&gt;@EnableCaching&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;@Bean&lt;/div&gt;&lt;div&gt;@ComponentScan&lt;/div&gt;&lt;div&gt;@ComponentScans&lt;/div&gt;&lt;div&gt;@Conditional&lt;/div&gt;&lt;div&gt;@Configuration&lt;/div&gt;&lt;div&gt;@DependsOn&lt;/div&gt;&lt;div&gt;@Description&lt;/div&gt;&lt;div&gt;@EnableAspectJAutoProxy&lt;/div&gt;&lt;div&gt;@EnableLoadTimeWeaving&lt;/div&gt;&lt;div&gt;@EnableMBeanExport&lt;/div&gt;&lt;div&gt;@Fallback&lt;/div&gt;&lt;div&gt;@Import&lt;/div&gt;&lt;div&gt;@ImportResource&lt;/div&gt;&lt;div&gt;@ImportRuntimeHints&lt;/div&gt;&lt;div&gt;@Lazy&lt;/div&gt;&lt;div&gt;@Primary&lt;/div&gt;&lt;div&gt;@Profile&lt;/div&gt;&lt;div&gt;@PropertySource&lt;/div&gt;&lt;div&gt;@PropertySources&lt;/div&gt;&lt;div&gt;@ReflectiveScan&lt;/div&gt;&lt;div&gt;@Role&lt;/div&gt;&lt;div&gt;@Scope&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;@EventListener&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;@DateTimeFormat&lt;/div&gt;&lt;div&gt;@DurationFormat&lt;/div&gt;&lt;div&gt;@NumberFormat&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-800" y="270" width="340.63" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="BGkUqKLfp8ouSg2YSjBn-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="1110" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
