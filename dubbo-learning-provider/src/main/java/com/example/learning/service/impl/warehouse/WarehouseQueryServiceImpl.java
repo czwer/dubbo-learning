@@ -6,10 +6,5 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class WarehouseQueryServiceImpl implements WarehouseQueryService {
-    private final UserQueryService userQueryService;
 
-    //依赖注入：构造函数注入
-    public WarehouseQueryServiceImpl(UserQueryService userQueryService) {
-        this.userQueryService = userQueryService;
-    }
 }
