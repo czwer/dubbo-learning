@@ -13,6 +13,7 @@
     org.springframework.boot.SpringApplication.refreshContext，456行
     org.springframework.context.support.AbstractApplicationContext.refresh，558行
     org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors，49行
+    org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry，249行，它负责处理配置类（例如用@Configuration注解的类），并从中解析出更多的Bean定义注册到容器中。
     org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization，956行，核心作用：完成BeanFactory的初始化，实例化所有非延迟加载的单例 Bean，完成 Spring 容器的完全启动。
     org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons，1069行，实例化所有单例Bean。
     org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean，205行，核心作用：获取Bean的核心方法
@@ -38,7 +39,10 @@
     org.springframework.context.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessMergedBeanDefinition：检查是否有 @PostConstruct, @PreDestroy注解信息，由CommonAnnotationBeanPostProcessor间接调用
     org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessMergedBeanDefinition：检查是否有 @Autowired，如果有，就创建一个InjectionMetadata对象
 
-
+（5）Spring套路：
+    
+    MetadataReader metadataReader = metadataReaderFactory.getMetadataReader(className);
+    metadata = metadataReader.getAnnotationMetadata();
     
 
 

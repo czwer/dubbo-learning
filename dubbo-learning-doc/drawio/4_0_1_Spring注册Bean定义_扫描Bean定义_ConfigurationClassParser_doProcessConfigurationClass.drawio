@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
+    <mxGraphModel dx="2876" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qlxX7Fygw9MmZmLqK2NQ-1" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ConfigurationClassParser&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontStyle=0;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="-111.5" y="50" width="353" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-2" value="" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="220" width="1000" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-15" value="&lt;b style=&quot;color: rgb(255, 0, 0); font-size: 20px;&quot;&gt;doProcessConfigurationClass()：递归处理配置类，解析各种Spring注解&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;color: rgb(255, 0, 0); font-size: 20px;&quot;&gt;处理流程：嵌套类 → 属性源 → 组件扫描 → 导入 → 导入资源 → Bean方法 → 接口 → 父类&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-380" y="235" width="890" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dbyZfYUz2kLOAnTONdro-5" value="处理@Component注解和嵌套类" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-413" y="325" width="970" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vSaTzKAQZK1o4J5muWpo-2" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;核心作用：收集和解析配置信息，生成配置类模型（ConfigurationClass），但不注册BeanDefinition。&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-410" y="534.5" width="968" height="253.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vSaTzKAQZK1o4J5muWpo-10" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;处理@ComponentScan，@ComponentScans注解：&lt;span style=&quot;text-align: center; color: rgb(255, 0, 0);&quot;&gt;解析自定义的@Service，&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;@Component&lt;/span&gt;&lt;span style=&quot;text-align: center; color: rgb(255, 0, 0);&quot;&gt;，&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;@Controller，@Configuration，并注册BeanDefinition&lt;/span&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-411.5" y="440" width="969.99" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FqINS3jw6dm6_iScS9fa-1" value="ComponentScanAnnotationParser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="570" y="50" width="418" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="FqINS3jw6dm6_iScS9fa-2" value="parse()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="720" y="452.5" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FqINS3jw6dm6_iScS9fa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="FqINS3jw6dm6_iScS9fa-2" target="FqINS3jw6dm6_iScS9fa-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FqINS3jw6dm6_iScS9fa-5" value="ClassPathBeanDefinitionScanner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2126" y="120" width="418" height="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="FqINS3jw6dm6_iScS9fa-6" value="doScan()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2250" y="607.5" width="150" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FqINS3jw6dm6_iScS9fa-8" value="findCandidateComponents()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2710" y="567.5" width="360" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="FqINS3jw6dm6_iScS9fa-10" value="ClassPathScanningCandidateComponentProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="2620" y="120" width="510" height="1930" as="geometry" />
+        </mxCell>
+        <mxCell id="FqINS3jw6dm6_iScS9fa-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FqINS3jw6dm6_iScS9fa-6" target="FqINS3jw6dm6_iScS9fa-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2500" y="820" as="sourcePoint" />
+            <mxPoint x="2550" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9xnDqZurU0b_SuC_hwr-1" value="scanCandidateComponents()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="2720" y="610" width="340" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="O9xnDqZurU0b_SuC_hwr-2" value="处理@PropertySource注解：将属性文件注册到Environment中" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-411.5" y="380" width="969.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9xnDqZurU0b_SuC_hwr-7" value="&lt;div style=&quot;&quot;&gt;处理@Import注解：解析导入的类，识别是ImportSelector(动态选择导入)、ImportBeanDefinitionRegistrar(编程式注册Bean定义)，还是普通配置类&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-399.49" y="584" width="939.49" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="O9xnDqZurU0b_SuC_hwr-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;处理@ImportResource注解：&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;记录XML资源位置和对应的BeanDefinitionReader&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-399.49" y="665" width="939.49" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="g_pJKhSFWp_cHxpb3PC0-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vSaTzKAQZK1o4J5muWpo-10" target="FqINS3jw6dm6_iScS9fa-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="558.4999999999995" y="519.9999999999998" as="sourcePoint" />
+            <mxPoint x="590" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PTpgmQvqYyPZqw0U1Yea-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;处理@Bean注解：&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;识别配置类中所有标注@Bean的方法，解析方法元数据&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-399.49" y="725" width="939.49" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PTpgmQvqYyPZqw0U1Yea-2" value="处理接口默认方法：支持接口中的@Bean方法" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="814" width="970" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

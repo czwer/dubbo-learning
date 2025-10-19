@@ -1,0 +1,13 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
+    <mxGraphModel dx="607" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lc5mf7nCTQjh2SExQ85K-13" value="&lt;div&gt;（1）PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors：&quot;spring.context.beandef-registry.post-process&quot;&lt;/div&gt;&lt;div&gt;---注册Bean定义&lt;/div&gt;&lt;div&gt;（2）PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors：&quot;spring.context.bean-factory.post-process&quot;&lt;/div&gt;&lt;div&gt;（3）ConfigurationClassPostProcessor.processConfigBeanDefinitions：&quot;spring.context.config-classes.parse&quot;&lt;/div&gt;&lt;div&gt;---解析@Configuration配置类加载更多bean&lt;/div&gt;&lt;div&gt;（4）ConfigurationClassPostProcessor.enhanceConfigurationClasses：&quot;spring.context.config-classes.enhance&quot;&lt;/div&gt;&lt;div&gt;---FULL模式的配置类@Configuration生成代理：代理的主要目的是拦截对@Bean方法的调用，确保返回的是容器中的单例Bean&lt;/div&gt;&lt;div&gt;（5）AnnotationConfigApplicationContext.register：&quot;spring.context.component-classes.register&quot;&lt;/div&gt;&lt;div&gt;---注册Bean&lt;/div&gt;&lt;div&gt;（6）AnnotationConfigApplicationContext.AnnotationConfigApplicationContext()：&quot;spring.context.annotated-bean-reader.create&quot;&lt;/div&gt;&lt;div&gt;---创建AnnotatedBeanDefinitionReader；&lt;/div&gt;&lt;div&gt;（7）AnnotationConfigApplicationContext.scan：&quot;spring.context.base-packages.scan&quot;&lt;/div&gt;&lt;div&gt;---包扫描&lt;/div&gt;&lt;div&gt;（8）AbstractBeanFactory.doGetBean：&quot;spring.beans.instantiate&quot;&lt;/div&gt;&lt;div&gt;---bean实例化&lt;/div&gt;&lt;div&gt;（9）DefaultListableBeanFactory.preInstantiateSingletons：&quot;spring.beans.smart-initialize&quot;&lt;/div&gt;&lt;div&gt;（10）AbstractApplicationContext.refresh：&quot;spring.context.beans.post-process&quot;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="20" width="1230" height="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
