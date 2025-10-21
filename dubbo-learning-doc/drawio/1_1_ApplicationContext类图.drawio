@@ -1,0 +1,37 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+  <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
+    <mxGraphModel dx="607" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lc5mf7nCTQjh2SExQ85K-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="20" width="940" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="1i7iyDztXm2SfSE6uJK3-13" value="&lt;div&gt;AnnotationConfigApplicationContext&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;verticalAlign=middle;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="320" width="410" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="1i7iyDztXm2SfSE6uJK3-25" value="" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1450" y="50" width="363.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lc5mf7nCTQjh2SExQ85K-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1i7iyDztXm2SfSE6uJK3-13" target="1i7iyDztXm2SfSE6uJK3-25" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1360" y="400" as="sourcePoint" />
+            <mxPoint x="1520" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lc5mf7nCTQjh2SExQ85K-15" value="spring-context&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1920" y="30" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Dl0aHl0LSAV_cRfp30VN-1" value="ClassPathMapperScanner" style="html=1;whiteSpace=wrap;fontSize=20;verticalAlign=middle;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1720" y="230" width="290" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="Dl0aHl0LSAV_cRfp30VN-2" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Dl0aHl0LSAV_cRfp30VN-1" target="1i7iyDztXm2SfSE6uJK3-25" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1540" y="260" as="sourcePoint" />
+            <mxPoint x="1700" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
