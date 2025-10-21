@@ -6,6 +6,7 @@ import com.example.learning.service.order.OrderUpdateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+@Service
 public class OrderUpdateServiceImpl implements OrderUpdateService {
 
     private GoodsUpdateService goodsUpdateService;

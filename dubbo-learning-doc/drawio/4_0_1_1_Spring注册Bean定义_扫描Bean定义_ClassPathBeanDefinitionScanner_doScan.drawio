@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
+    <mxGraphModel dx="3420" dy="1433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qlxX7Fygw9MmZmLqK2NQ-1" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;ClassPathBeanDefinitionScanner&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontStyle=0;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="-111.5" y="50" width="353" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-2" value="" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-430" y="220" width="1000" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="tHCy42ypWK_uThyhraDl-15" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;doScan()：在指定的包路径中扫描并注册Bean定义&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=top;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-380" y="235" width="890" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dbyZfYUz2kLOAnTONdro-5" value="参数验证：确保传入的包路径数组不为空" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-415" y="280" width="970" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vSaTzKAQZK1o4J5muWpo-2" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;遍历所有基础包：&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-414" y="340" width="970" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="FqINS3jw6dm6_iScS9fa-1" value="ClassPathScanningCandidateComponentProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="815" y="50" width="500" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="FqINS3jw6dm6_iScS9fa-2" value="findCandidateComponents()：&lt;div&gt;使用ASM技术读取类元数据（不需要加载类），检查类是否带有组件注解（@Component,@Service,@Repository,@Controller等）&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="760" y="318.44" width="610" height="163.12" as="geometry" />
+        </mxCell>
+        <mxCell id="FqINS3jw6dm6_iScS9fa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="FqINS3jw6dm6_iScS9fa-2" target="FqINS3jw6dm6_iScS9fa-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9xnDqZurU0b_SuC_hwr-1" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;scanCandidateComponents()&lt;/font&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="775" y="420" width="580" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="O9xnDqZurU0b_SuC_hwr-2" value="设置Bean定义autowireCandidate属性：是否会被作为候选对象注入到其他Bean中" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-399.49" y="564" width="939.49" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9xnDqZurU0b_SuC_hwr-7" value="&lt;div style=&quot;&quot;&gt;扫描指定包路径下的所有类文件&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-399.49" y="380" width="939.49" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O9xnDqZurU0b_SuC_hwr-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;解析作用域元数据，设置Bean定义的作用阈&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-399.49" y="440" width="939.49" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PTpgmQvqYyPZqw0U1Yea-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;生成Bean名称&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-399.49" y="500" width="939.49" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PTpgmQvqYyPZqw0U1Yea-2" value="处理通用注解：@Lazy，@Primary，@DependsOn，@Role，@Description" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="620" width="940" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7eOq2-pZIgHq_81Etu28-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="O9xnDqZurU0b_SuC_hwr-7" target="FqINS3jw6dm6_iScS9fa-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="510" as="sourcePoint" />
+            <mxPoint x="660" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eOq2-pZIgHq_81Etu28-4" value="DefaultListableBeanFactory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="50" width="300" height="880" as="geometry" />
+        </mxCell>
+        <mxCell id="7eOq2-pZIgHq_81Etu28-7" value="检查Bean定义：是否存在同名的Bean定义，如存在冲突不允许覆盖，会抛出异常" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-399" y="680" width="940" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7eOq2-pZIgHq_81Etu28-8" value="registerBeanDefinition()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1387" y="800" width="380" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7eOq2-pZIgHq_81Etu28-9" value="注册Bean定义" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="804" width="940" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7eOq2-pZIgHq_81Etu28-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7eOq2-pZIgHq_81Etu28-9" target="7eOq2-pZIgHq_81Etu28-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="924" as="sourcePoint" />
+            <mxPoint x="810" y="874" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1-GFZW2ama2RyhZ7Q7l-1" value="创建Bean定义持有器，如果作用阈是request，session等，会创建相应的代理" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-399" y="740" width="940" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

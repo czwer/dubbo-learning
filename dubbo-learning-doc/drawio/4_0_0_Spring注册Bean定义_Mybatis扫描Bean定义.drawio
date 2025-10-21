@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="第 1 页" id="fyB8GgYI4FyXESGWT-Vs">
+    <mxGraphModel dx="1426" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0BIcAPMd7vGQFvcmi9HE-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="521" y="1080" width="1080" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="0BIcAPMd7vGQFvcmi9HE-10" value="&lt;b&gt;MapperScannerConfigurer&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="717" y="1140" width="410" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0BIcAPMd7vGQFvcmi9HE-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="917" y="1240" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0BIcAPMd7vGQFvcmi9HE-12" value="postProcessBeanDefinitionRegistry" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;" parent="1" target="0BIcAPMd7vGQFvcmi9HE-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="1245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0BIcAPMd7vGQFvcmi9HE-13" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontSize=20;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="1387" as="targetPoint" />
+            <mxPoint x="917" y="1387" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0BIcAPMd7vGQFvcmi9HE-14" value="&lt;b&gt;ClassPathMapperScanner&lt;/b&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1151" y="1138.5" width="410" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0BIcAPMd7vGQFvcmi9HE-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="0BIcAPMd7vGQFvcmi9HE-14" vertex="1">
+          <mxGeometry x="199" y="120" width="10" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="0BIcAPMd7vGQFvcmi9HE-16" value="scan" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;" parent="1" source="0BIcAPMd7vGQFvcmi9HE-11" target="0BIcAPMd7vGQFvcmi9HE-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1142" y="1263.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0BIcAPMd7vGQFvcmi9HE-17" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;fontSize=20;" parent="1" source="0BIcAPMd7vGQFvcmi9HE-15" target="0BIcAPMd7vGQFvcmi9HE-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="1356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0BIcAPMd7vGQFvcmi9HE-19" value="Mybatis Bean扫描" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="1500" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

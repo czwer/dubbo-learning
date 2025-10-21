@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.4 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.4">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
-    <mxGraphModel dx="2876" dy="1206" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,34 +23,13 @@
           <mxGeometry x="-411.5" y="440" width="969.99" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FqINS3jw6dm6_iScS9fa-1" value="ComponentScanAnnotationParser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="570" y="50" width="418" height="890" as="geometry" />
+          <mxGeometry x="590" y="50" width="418" height="890" as="geometry" />
         </mxCell>
         <mxCell id="FqINS3jw6dm6_iScS9fa-2" value="parse()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="720" y="452.5" width="150" height="45" as="geometry" />
         </mxCell>
         <mxCell id="FqINS3jw6dm6_iScS9fa-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="FqINS3jw6dm6_iScS9fa-2" target="FqINS3jw6dm6_iScS9fa-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FqINS3jw6dm6_iScS9fa-5" value="ClassPathBeanDefinitionScanner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="2126" y="120" width="418" height="1930" as="geometry" />
-        </mxCell>
-        <mxCell id="FqINS3jw6dm6_iScS9fa-6" value="doScan()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2250" y="607.5" width="150" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="FqINS3jw6dm6_iScS9fa-8" value="findCandidateComponents()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2710" y="567.5" width="360" height="125" as="geometry" />
-        </mxCell>
-        <mxCell id="FqINS3jw6dm6_iScS9fa-10" value="ClassPathScanningCandidateComponentProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="2620" y="120" width="510" height="1930" as="geometry" />
-        </mxCell>
-        <mxCell id="FqINS3jw6dm6_iScS9fa-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FqINS3jw6dm6_iScS9fa-6" target="FqINS3jw6dm6_iScS9fa-8" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2500" y="820" as="sourcePoint" />
-            <mxPoint x="2550" y="770" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="O9xnDqZurU0b_SuC_hwr-1" value="scanCandidateComponents()" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="2720" y="610" width="340" height="45" as="geometry" />
         </mxCell>
         <mxCell id="O9xnDqZurU0b_SuC_hwr-2" value="处理@PropertySource注解：将属性文件注册到Environment中" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-411.5" y="380" width="969.5" height="40" as="geometry" />
@@ -67,11 +46,23 @@
             <mxPoint x="590" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PTpgmQvqYyPZqw0U1Yea-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;处理@Bean注解：&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;识别配置类中所有标注@Bean的方法，解析方法元数据&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="PTpgmQvqYyPZqw0U1Yea-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; text-align: left;&quot;&gt;处理@Bean注解：&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;识别配置类中所有标注@Bean的方法，解析方法元数据&lt;/span&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-399.49" y="725" width="939.49" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PTpgmQvqYyPZqw0U1Yea-2" value="处理接口默认方法：支持接口中的@Bean方法" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="PTpgmQvqYyPZqw0U1Yea-2" value="处理接口默认方法：支持接口中的@Bean方法" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=left;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="-410" y="814" width="970" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GRPOoDjmJEH0EBPx28XO-1" value="ClassPathBeanDefinitionScanner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="50" width="418" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="GRPOoDjmJEH0EBPx28XO-2" value="doScan()：&lt;span style=&quot;&quot;&gt;在指定的包路径中扫描并注册Bean定义&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1;align=center;verticalAlign=top;fontColor=#FF0000;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="1027" y="452.5" width="484" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="GRPOoDjmJEH0EBPx28XO-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FqINS3jw6dm6_iScS9fa-2" target="GRPOoDjmJEH0EBPx28XO-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="460" as="sourcePoint" />
+            <mxPoint x="990" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
