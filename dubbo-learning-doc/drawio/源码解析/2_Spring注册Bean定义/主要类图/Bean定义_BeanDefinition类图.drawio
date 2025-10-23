@@ -1,9 +1,12 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.7 Chrome/138.0.7204.251 Electron/37.7.1 Safari/537.36" version="28.2.7">
   <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
-    <mxGraphModel dx="1783" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mleCbPgjPcL-gwmABnvn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="120" width="2000" height="680" as="geometry" />
+        </mxCell>
         <mxCell id="1i7iyDztXm2SfSE6uJK3-1" value="«interface»&lt;br&gt;&lt;span&gt;BeanDefinition&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1300" y="160" width="220" height="50" as="geometry" />
         </mxCell>
@@ -43,7 +46,7 @@
             <mxPoint x="980" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1i7iyDztXm2SfSE6uJK3-15" value="RootBeanDefinition" style="html=1;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#FF0000;verticalAlign=middle;align=center;" parent="1" vertex="1">
+        <mxCell id="1i7iyDztXm2SfSE6uJK3-15" value="RootBeanDefinition" style="html=1;whiteSpace=wrap;fontSize=20;fontStyle=0;fontColor=#FF0000;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="970" y="449" width="240" height="51" as="geometry" />
         </mxCell>
         <mxCell id="1i7iyDztXm2SfSE6uJK3-16" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1i7iyDztXm2SfSE6uJK3-15" target="1i7iyDztXm2SfSE6uJK3-2" edge="1">
@@ -52,7 +55,7 @@
             <mxPoint x="1140" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1i7iyDztXm2SfSE6uJK3-18" value="GenericBeanDefinition" style="html=1;whiteSpace=wrap;fontSize=20;fontStyle=1;fontColor=#FF0000;verticalAlign=middle;" parent="1" vertex="1">
+        <mxCell id="1i7iyDztXm2SfSE6uJK3-18" value="GenericBeanDefinition" style="html=1;whiteSpace=wrap;fontSize=20;fontStyle=0;fontColor=#FF0000;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1550" y="449" width="270" height="51" as="geometry" />
         </mxCell>
         <mxCell id="1i7iyDztXm2SfSE6uJK3-19" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="1i7iyDztXm2SfSE6uJK3-18" target="1i7iyDztXm2SfSE6uJK3-2" edge="1">
