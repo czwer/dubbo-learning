@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
+    <mxGraphModel dx="599" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lc5mf7nCTQjh2SExQ85K-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="90" width="1290" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="mEVcy1A5f8fxIJjsYzMS-1" value="«interface»&lt;br&gt;LoggingSystemFactory" style="html=1;whiteSpace=wrap;fontSize=20;fontStyle=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="140" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fyX_qp0nPDoWCMaDwxBh-1" value="spring-boot&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="2093" y="140" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fyX_qp0nPDoWCMaDwxBh-10" value="&lt;div&gt;LogbackLoggingSystem$Factory&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;verticalAlign=middle;align=center;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="280" width="370" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="fyX_qp0nPDoWCMaDwxBh-11" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="fyX_qp0nPDoWCMaDwxBh-10" target="mEVcy1A5f8fxIJjsYzMS-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="2091" y="320" as="sourcePoint" />
+            <mxPoint x="2251" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyX_qp0nPDoWCMaDwxBh-18" value="META-INF/spring.factories中加载的&lt;span style=&quot;&quot;&gt;LoggingSystemFactory&lt;/span&gt;实现" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1235.5" y="390" width="840" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ8NvIvVYoF9q58KUQ75-1" value="&lt;div&gt;Log4J2LoggingSystem$Factory&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;verticalAlign=middle;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="280" width="370" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ8NvIvVYoF9q58KUQ75-2" value="&lt;div&gt;JavaLoggingSystem$Factory&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontSize=20;verticalAlign=middle;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1883" y="280" width="370" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ8NvIvVYoF9q58KUQ75-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="FZ8NvIvVYoF9q58KUQ75-1" target="mEVcy1A5f8fxIJjsYzMS-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1470" y="250" as="sourcePoint" />
+            <mxPoint x="1630" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZ8NvIvVYoF9q58KUQ75-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="FZ8NvIvVYoF9q58KUQ75-2" target="mEVcy1A5f8fxIJjsYzMS-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1800" y="230" as="sourcePoint" />
+            <mxPoint x="1960" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
