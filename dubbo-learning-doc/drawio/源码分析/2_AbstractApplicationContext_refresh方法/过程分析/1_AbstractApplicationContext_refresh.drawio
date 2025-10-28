@@ -1,229 +1,198 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
-    <mxGraphModel dx="1783" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1755" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-QrxRBGIXTvyxB3OS5xk-55" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="168" width="2100" height="2332" as="geometry" />
+        <mxCell id="8HlDPOHAcPrSxFD7tWNl-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry y="160" width="2450" height="1840" as="geometry" />
         </mxCell>
-        <mxCell id="-QrxRBGIXTvyxB3OS5xk-1" value="SpringApplication" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;participant=label;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="213" y="210" width="230" height="2120" as="geometry" />
+        <mxCell id="-QrxRBGIXTvyxB3OS5xk-1" value="AbstractApplicationContext" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;participant=label;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="180" y="210" width="297" height="1730" as="geometry" />
         </mxCell>
-        <mxCell id="-QrxRBGIXTvyxB3OS5xk-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="111" y="130" width="10" height="1820" as="geometry" />
+        <mxCell id="-QrxRBGIXTvyxB3OS5xk-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="143.5" y="130" width="10" height="1500" as="geometry" />
         </mxCell>
-        <mxCell id="-QrxRBGIXTvyxB3OS5xk-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="116" y="187" width="10" height="273" as="geometry" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="180" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="-QrxRBGIXTvyxB3OS5xk-17" value="执行构造器方法" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="-QrxRBGIXTvyxB3OS5xk-16" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-2" value="prepareRefresh()：准备刷新" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="121" y="167" as="sourcePoint" />
+            <mxPoint x="154" y="160" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="151" y="197" />
+              <mxPoint x="184" y="190" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="A_lMgig04zZX347-qLPO-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="122" y="240" width="10" height="40" as="geometry" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="270" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="A_lMgig04zZX347-qLPO-2" value="加载资源：META-INF/spring.factories&lt;div&gt;加载类型：org.springframework.boot.BootstrapRegistryInitializer&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="A_lMgig04zZX347-qLPO-1" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-4" value="obtainFreshBeanFactory()：获取已创建的DefaultListableBeanFactory" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-3" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="127" y="220" as="sourcePoint" />
+            <mxPoint x="154" y="250" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="157" y="250" />
+              <mxPoint x="184" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="A_lMgig04zZX347-qLPO-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="122" y="320" width="10" height="40" as="geometry" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="360" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="A_lMgig04zZX347-qLPO-4" value="&lt;div&gt;加载资源：META-INF/spring.factories&lt;/div&gt;&lt;div&gt;加载类型：org.springframework.context.ApplicationContextInitializer&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="A_lMgig04zZX347-qLPO-3" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-6" value="prepareBeanFactory()：配置BeanFactory" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-5" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="127" y="300" as="sourcePoint" />
+            <mxPoint x="154" y="340" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="157" y="330" />
+              <mxPoint x="184" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m-SrFzIWjWcpo6os5ry7-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="121" y="403" width="10" height="40" as="geometry" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="450" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m-SrFzIWjWcpo6os5ry7-3" value="加载资源：META-INF/spring.factories&lt;div&gt;加载类型：org.springframework.context.ApplicationListener&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="m-SrFzIWjWcpo6os5ry7-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="126" y="383" as="sourcePoint" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-8" value="postProcessBeanFactory()：" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-7" edge="1">
+          <mxGeometry x="0.0053" relative="1" as="geometry">
+            <mxPoint x="154" y="430" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="156" y="413" />
+              <mxPoint x="184" y="460" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iM332NiOQI8bRhLlSiIP-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="542" width="10" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="iM332NiOQI8bRhLlSiIP-10" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;b&gt;invokeBeanFactoryPostProcessors()：执行BeanFactoryPostProcessor处理方法&lt;/b&gt;&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;fontColor=#FF0000;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="154" y="522" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="184" y="552" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m-SrFzIWjWcpo6os5ry7-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="117" y="510" width="10" height="540" as="geometry" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="756" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m-SrFzIWjWcpo6os5ry7-5" value="run()方法执行" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="m-SrFzIWjWcpo6os5ry7-4" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-12" value="registerBeanPostProcessors()：注册BeanPostProcessor，用于后续Bean实例的增强" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-11" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="122" y="490" as="sourcePoint" />
+            <mxPoint x="154" y="736" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="152" y="520" />
+              <mxPoint x="184" y="766" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m-SrFzIWjWcpo6os5ry7-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="122" y="559" width="10" height="40" as="geometry" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="851" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="m-SrFzIWjWcpo6os5ry7-9" value="configureHeadlessProperty()：配置Headless模式：确保应用在&lt;div&gt;无图形界面环境（如服务器）中也能正常工作&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="m-SrFzIWjWcpo6os5ry7-8" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-14" value="initMessageSource()：初始化消息源" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="127" y="539" as="sourcePoint" />
+            <mxPoint x="154" y="831" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="157" y="569" />
+              <mxPoint x="184" y="861" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MXJS1vc6aWy4tjezfeGe-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="122" y="640" width="10" height="40" as="geometry" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="942" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MXJS1vc6aWy4tjezfeGe-2" value="加载资源：META-INF/spring.factories&lt;div&gt;加载类型：org.springframework.boot.SpringApplicationRunListener&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="MXJS1vc6aWy4tjezfeGe-1" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-16" value="initApplicationEventMulticaster():初始化应用事件广播器：SimpleApplicationEventMulticaster" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="127" y="620" as="sourcePoint" />
+            <mxPoint x="154" y="922" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="157" y="650" />
+              <mxPoint x="184" y="952" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MXJS1vc6aWy4tjezfeGe-4" value="发布应用启动事件：ApplicationStartingEvent" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;strokeColor=#00CC00;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="MXJS1vc6aWy4tjezfeGe-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="131" y="705" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="iM332NiOQI8bRhLlSiIP-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="1032" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sT0C0HFc28g8CPJ5HvF9-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="122" y="820" width="10" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="sT0C0HFc28g8CPJ5HvF9-4" value="prepareEnvironment()：准备环境" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="sT0C0HFc28g8CPJ5HvF9-3" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-18" value="onRefresh()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-17" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="127" y="800" as="sourcePoint" />
+            <mxPoint x="154" y="1012" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="157" y="830" />
+              <mxPoint x="184" y="1042" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sT0C0HFc28g8CPJ5HvF9-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="127" y="870" width="10" height="40" as="geometry" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="1124" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sT0C0HFc28g8CPJ5HvF9-8" value="加载资源：META-INF/spring.factories&lt;div&gt;加载类型：org.springframework.boot.ApplicationContextFactory&lt;/div&gt;&lt;div&gt;---未用到&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="sT0C0HFc28g8CPJ5HvF9-7" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-20" value="registerListeners()：注册所有实现ApplicationListener接口的Bean" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-19" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="132" y="850" as="sourcePoint" />
+            <mxPoint x="154" y="1104" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="162" y="880" />
+              <mxPoint x="184" y="1134" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4_eBpyDCCzqvXuNyVG6e-2" value="发布环境准备就绪事件：ApplicationEnvironmentPreparedEvent" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;fontColor=#000000;strokeColor=#00CC00;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="4_eBpyDCCzqvXuNyVG6e-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="137" y="935" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="iM332NiOQI8bRhLlSiIP-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="1217" width="10" height="173" as="geometry" />
         </mxCell>
-        <mxCell id="60hVxblD6QE0JyqVjlSO-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="117" y="1100" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="60hVxblD6QE0JyqVjlSO-2" value="打印Banner" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="60hVxblD6QE0JyqVjlSO-1" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-22" value="&lt;span&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;finishBeanFactoryInitialization()：完成BeanFactory初始化&lt;/font&gt;&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;fontStyle=1" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-21" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="122" y="1080" as="sourcePoint" />
+            <mxPoint x="154" y="1197" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="152" y="1110" />
+              <mxPoint x="184" y="1227" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lD74k1l0JDU-dRTLkBME-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="116" y="1180" width="10" height="40" as="geometry" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
+          <mxGeometry x="149" y="1449" width="10" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="lD74k1l0JDU-dRTLkBME-2" value="createApplicationContext()：&lt;div&gt;创建DefaultListableBeanFactory&lt;br&gt;&lt;div&gt;返回：AnnotationConfigApplicationContext&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;fontColor=#FF0000;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="lD74k1l0JDU-dRTLkBME-1" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-24" value="finishRefresh()：完成刷新" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="121" y="1160" as="sourcePoint" />
+            <mxPoint x="154" y="1429" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="151" y="1190" />
+              <mxPoint x="184" y="1459" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1n3uhFVZ7D2CqTytXlz4-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="116" y="1270" width="10" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="1n3uhFVZ7D2CqTytXlz4-2" value="prepareContext():准备应用上下文" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="1n3uhFVZ7D2CqTytXlz4-1" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-36" value="preInstantiateSingletons()：实例化所有单例Bean" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontStyle=1;fontColor=#FF0000;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-35" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="121" y="1250" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="151" y="1280" />
-            </Array>
+            <mxPoint x="164" y="1263" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mUYwK8JGR3BNWhhx3xwo-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="-QrxRBGIXTvyxB3OS5xk-1">
-          <mxGeometry x="116" y="1630" width="10" height="140" as="geometry" />
+        <mxCell id="-QrxRBGIXTvyxB3OS5xk-18" value="PostProcessorRegistrationDelegate" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="208" width="380" height="1642" as="geometry" />
         </mxCell>
-        <mxCell id="mUYwK8JGR3BNWhhx3xwo-10" value="refreshContext()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;fontStyle=0" edge="1" target="mUYwK8JGR3BNWhhx3xwo-9" parent="-QrxRBGIXTvyxB3OS5xk-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="121" y="1610" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="151" y="1640" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="iM332NiOQI8bRhLlSiIP-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-18" vertex="1">
+          <mxGeometry x="185" y="582" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="mUYwK8JGR3BNWhhx3xwo-14" value="refresh()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;fontStyle=1;fontColor=#FF0000;" edge="1" target="mUYwK8JGR3BNWhhx3xwo-13" parent="-QrxRBGIXTvyxB3OS5xk-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="131" y="1679" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-QrxRBGIXTvyxB3OS5xk-18" value="EventPublishingRunListener" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="971" y="210" width="330" height="2140" as="geometry" />
-        </mxCell>
-        <mxCell id="MXJS1vc6aWy4tjezfeGe-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-18" vertex="1">
-          <mxGeometry x="160" y="700" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4_eBpyDCCzqvXuNyVG6e-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-18" vertex="1">
-          <mxGeometry x="160" y="930" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-QrxRBGIXTvyxB3OS5xk-56" value="run" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;" parent="1" edge="1">
+        <mxCell id="-QrxRBGIXTvyxB3OS5xk-56" value="refresh()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;fontStyle=1;fontColor=#FF0000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="35" y="365" as="sourcePoint" />
             <mxPoint x="323" y="365" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-QrxRBGIXTvyxB3OS5xk-58" value="SpringApplication.run方法" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="855" y="2420" width="410" height="30" as="geometry" />
+        <mxCell id="-QrxRBGIXTvyxB3OS5xk-58" value="AbstractApplicationContext.refresh&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;方法&lt;/span&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="940" y="1920" width="690" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="2jkTHWjFfz8fGy_T3Wvq-2" value="加载资源：META-INF/spring.factories&lt;div&gt;加载类型：org.springframework.boot.logging.LoggingSystemFactory&lt;/div&gt;&lt;div&gt;确定使用的日志系统：LogbackLoggingSystem&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1149" y="910" width="670" height="75" as="geometry" />
+        <mxCell id="mUYwK8JGR3BNWhhx3xwo-4" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;DefaultListableBeanFactory&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="1490" y="208" width="330" height="1642" as="geometry" />
         </mxCell>
-        <mxCell id="4_eBpyDCCzqvXuNyVG6e-5" value="加载资源：META-INF/spring.factories&lt;div&gt;加载类型：org.springframework.boot.env.EnvironmentPostProcessor&lt;/div&gt;&lt;div&gt;加载类型：org.springframework.boot.context.config.ConfigDataLocationResolver&lt;/div&gt;&lt;div&gt;加载类型：org.springframework.boot.env.PropertySourceLoader&lt;/div&gt;&lt;div&gt;加载类型：org.springframework.boot.context.config.ConfigDataLoader&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;加载配置文件&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1151" y="1100" width="780" height="160" as="geometry" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-35" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="mUYwK8JGR3BNWhhx3xwo-4" vertex="1">
+          <mxGeometry x="160" y="1258" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zcul0q8jrWw0tNFS2Kw0-1" value="Bean工厂设置ApplicationConversionService；&lt;div&gt;调用ApplicationContextInitializer的initialize方法；&lt;/div&gt;&lt;div&gt;加载资源：META-INF/spring.factories&lt;div&gt;加载类型：org.springframework.core.io.ProtocolResolver&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="347" y="1494" width="640" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="mUYwK8JGR3BNWhhx3xwo-1" value="发布上下文已初始化事件：ApplicationContextInitializedEvent" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=20;fontColor=#000000;strokeColor=#00CC00;" edge="1" parent="1" target="-QrxRBGIXTvyxB3OS5xk-18">
+        <mxCell id="mUYwK8JGR3BNWhhx3xwo-16" value="&lt;span style=&quot;text-align: left;&quot;&gt;multicastEvent()：发布事件：ContextRefreshedEvent&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=20;fontColor=#000000;strokeColor=#00CC00;" parent="1" target="mUYwK8JGR3BNWhhx3xwo-13" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="342" y="1642" as="sourcePoint" />
-            <mxPoint x="992" y="1642" as="targetPoint" />
+            <mxPoint x="339" y="1711.5" as="sourcePoint" />
+            <mxPoint x="1209.5" y="1711.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mUYwK8JGR3BNWhhx3xwo-2" value="添加BeanFactoryPostProcessor：PropertySourceOrderingBeanFactoryPostProcessor；&lt;div&gt;项目启动类注册到Bean定义；&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="347" y="1660" width="793" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="mUYwK8JGR3BNWhhx3xwo-3" value="发布上下文已准备事件：ApplicationPreparedEvent" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=20;fontColor=#000000;strokeColor=#00CC00;" edge="1" parent="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-26" value="" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;" parent="1" target="iM332NiOQI8bRhLlSiIP-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="343" y="1754" as="sourcePoint" />
-            <mxPoint x="1137" y="1754" as="targetPoint" />
+            <mxPoint x="339" y="797" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mUYwK8JGR3BNWhhx3xwo-4" value="AbstractApplicationContext" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="1737" y="210" width="330" height="2150" as="geometry" />
-        </mxCell>
-        <mxCell id="mUYwK8JGR3BNWhhx3xwo-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="mUYwK8JGR3BNWhhx3xwo-4">
-          <mxGeometry x="160" y="1674" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="mUYwK8JGR3BNWhhx3xwo-16" value="发布应用启动完成事件：ApplicationStartedEvent" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;fontSize=20;fontColor=#000000;strokeColor=#00CC00;" edge="1" parent="1" target="-QrxRBGIXTvyxB3OS5xk-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="339" y="2017" as="sourcePoint" />
-            <mxPoint x="1133" y="2017" as="targetPoint" />
+        <mxCell id="iM332NiOQI8bRhLlSiIP-34" value="invokeBeanFactoryPostProcessors()：扫描和注册Bean定义" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontColor=#FF0000;fontStyle=1" parent="iM332NiOQI8bRhLlSiIP-26" vertex="1" connectable="0">
+          <mxGeometry x="0.0053" y="2" relative="1" as="geometry">
+            <mxPoint x="11" y="-15" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8HlDPOHAcPrSxFD7tWNl-1" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;SimpleApplicationEventMulticaster(spring)&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1915" y="210" width="400" height="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="mUYwK8JGR3BNWhhx3xwo-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="8HlDPOHAcPrSxFD7tWNl-1" vertex="1">
+          <mxGeometry x="195" y="1464" width="10" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
