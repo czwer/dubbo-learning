@@ -1,10 +1,10 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
-    <mxGraphModel dx="1755" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="8HlDPOHAcPrSxFD7tWNl-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="8HlDPOHAcPrSxFD7tWNl-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry y="160" width="2450" height="1840" as="geometry" />
         </mxCell>
         <mxCell id="-QrxRBGIXTvyxB3OS5xk-1" value="AbstractApplicationContext" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;participant=label;fontColor=#FF0000;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
         <mxCell id="iM332NiOQI8bRhLlSiIP-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
           <mxGeometry x="149" y="450" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iM332NiOQI8bRhLlSiIP-8" value="postProcessBeanFactory()：" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-7" edge="1">
+        <mxCell id="iM332NiOQI8bRhLlSiIP-8" value="postProcessBeanFactory()：目前是空方法" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="iM332NiOQI8bRhLlSiIP-7" edge="1">
           <mxGeometry x="0.0053" relative="1" as="geometry">
             <mxPoint x="154" y="430" as="sourcePoint" />
             <Array as="points">
@@ -188,11 +188,14 @@
             <mxPoint x="11" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8HlDPOHAcPrSxFD7tWNl-1" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;SimpleApplicationEventMulticaster(spring)&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="8HlDPOHAcPrSxFD7tWNl-1" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;SimpleApplicationEventMulticaster(spring)&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1915" y="210" width="400" height="1640" as="geometry" />
         </mxCell>
         <mxCell id="mUYwK8JGR3BNWhhx3xwo-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="8HlDPOHAcPrSxFD7tWNl-1" vertex="1">
           <mxGeometry x="195" y="1464" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0ckV7YNw6_Se_UkZSRZm-1" value="添加BeanPostProcessor：LoadTimeWeaverAwareProcessor" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="290" y="820" width="660" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
