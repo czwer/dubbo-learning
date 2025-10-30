@@ -44,7 +44,8 @@
     MetadataReader metadataReader = metadataReaderFactory.getMetadataReader(className);
     metadata = metadataReader.getAnnotationMetadata();
     
-
+（6）注解对应的类：
+@Scope：org.springframework.context.annotation.AnnotationScopeMetadataResolver
 
 
 （1）Spring中其他容易混淆的概念有哪些？
