@@ -1,0 +1,61 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
+    <mxGraphModel dx="3204" dy="1313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lc5mf7nCTQjh2SExQ85K-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-740" y="50" width="1240" height="575.5" as="geometry" />
+        </mxCell>
+        <mxCell id="mEVcy1A5f8fxIJjsYzMS-37" value="dubbo&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="105" y="490" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dmNFYRCC_EVl9eXUpVEG-11" value="spring&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="105" y="399" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HinASl0Kt4Q7WlVEa3fy-1" value="springboot&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="300" y="399" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HinASl0Kt4Q7WlVEa3fy-2" value="@SpringBootConfiguration" style="html=1;whiteSpace=wrap;fontSize=20;verticalAlign=middle;align=center;fontStyle=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-285" y="480" width="260" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="HinASl0Kt4Q7WlVEa3fy-3" value="@EnableAutoConfiguration" style="html=1;whiteSpace=wrap;fontSize=20;verticalAlign=middle;align=center;fontStyle=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-285" y="348" width="260" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="HinASl0Kt4Q7WlVEa3fy-4" value="@AutoConfigurationPackage" style="html=1;whiteSpace=wrap;fontSize=20;verticalAlign=middle;align=center;fontStyle=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-25" y="228" width="290" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="HinASl0Kt4Q7WlVEa3fy-5" value="@Import(AutoConfigurationPackages.Registrar.class)" style="html=1;whiteSpace=wrap;fontSize=20;verticalAlign=middle;align=center;fontStyle=0;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="100" width="500" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="HinASl0Kt4Q7WlVEa3fy-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HinASl0Kt4Q7WlVEa3fy-4" target="HinASl0Kt4Q7WlVEa3fy-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-50" y="210" as="sourcePoint" />
+            <mxPoint x="110" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HinASl0Kt4Q7WlVEa3fy-7" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HinASl0Kt4Q7WlVEa3fy-3" target="HinASl0Kt4Q7WlVEa3fy-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-110" y="310" as="sourcePoint" />
+            <mxPoint x="50" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HinASl0Kt4Q7WlVEa3fy-8" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HinASl0Kt4Q7WlVEa3fy-2" target="HinASl0Kt4Q7WlVEa3fy-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-220" y="410" as="sourcePoint" />
+            <mxPoint x="-60" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HinASl0Kt4Q7WlVEa3fy-9" value="@Import(AutoConfigurationImportSelector.class)" style="html=1;whiteSpace=wrap;fontSize=20;verticalAlign=middle;align=center;fontStyle=0;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="-690" y="100" width="500" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="HinASl0Kt4Q7WlVEa3fy-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="HinASl0Kt4Q7WlVEa3fy-3" target="HinASl0Kt4Q7WlVEa3fy-9" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-440" y="310" as="sourcePoint" />
+            <mxPoint x="-280" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

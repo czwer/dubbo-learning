@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
+    <mxGraphModel dx="599" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lc5mf7nCTQjh2SExQ85K-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="910" y="50" width="700" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="mEVcy1A5f8fxIJjsYzMS-37" value="dubbo&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="490" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dmNFYRCC_EVl9eXUpVEG-11" value="spring&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
+          <mxGeometry x="950" y="490" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HinASl0Kt4Q7WlVEa3fy-1" value="springboot&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="490" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DeR-ES4d_NRpQkdwP4V--2" value="«interface»&lt;br&gt;&lt;span&gt;ImportSelector&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#ffcc99;strokeColor=#36393d;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="1081" y="80" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DeR-ES4d_NRpQkdwP4V--10" value="AutoConfigurationImportSelector" style="html=1;whiteSpace=wrap;fontSize=20;verticalAlign=middle;align=center;fontStyle=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="1078.5" y="360" width="355" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="wK2UhiPmWzgM6ACBO4pO-2" value="«interface»&lt;br&gt;&lt;span&gt;DeferredImportSelector&lt;/span&gt;" style="html=1;whiteSpace=wrap;fontSize=20;fillColor=#ffcc99;strokeColor=#36393d;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1081" y="220" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wK2UhiPmWzgM6ACBO4pO-3" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wK2UhiPmWzgM6ACBO4pO-2" target="DeR-ES4d_NRpQkdwP4V--2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="990" y="150" as="sourcePoint" />
+            <mxPoint x="1150" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wK2UhiPmWzgM6ACBO4pO-4" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeR-ES4d_NRpQkdwP4V--10" target="wK2UhiPmWzgM6ACBO4pO-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1410" y="160" as="sourcePoint" />
+            <mxPoint x="1570" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

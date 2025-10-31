@@ -45,8 +45,9 @@
     metadata = metadataReader.getAnnotationMetadata();
     
 （6）注解对应的类：
-@Scope：org.springframework.context.annotation.AnnotationScopeMetadataResolver
 
+    @Scope：org.springframework.context.annotation.AnnotationScopeMetadataResolver
+    @Configuration：标注的类，转换成了：org.springframework.context.annotation.ConfigurationClass
 
 （1）Spring中其他容易混淆的概念有哪些？
 （1.1）org.springframework.beans.factory.ObjectFactory和org.springframework.beans.factory.FactoryBean什么关系？

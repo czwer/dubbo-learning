@@ -1,20 +1,20 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
   <diagram name="第 1 页" id="A2wYnKDMZFF023bxGnZ8">
-    <mxGraphModel dx="1319" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1783" dy="985" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="8HlDPOHAcPrSxFD7tWNl-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry y="160" width="2030" height="1280" as="geometry" />
+          <mxGeometry y="160" width="2030" height="1400" as="geometry" />
         </mxCell>
         <mxCell id="-QrxRBGIXTvyxB3OS5xk-1" value="&lt;span style=&quot;&quot;&gt;&lt;b&gt;ConfigurationClassPostProcessor&lt;/b&gt;&lt;/span&gt;" style="shape=umlLifeline;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=0;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=rectanglePerimeter;targetShapes=umlLifeline;participant=label;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="270" y="208" width="360" height="1072" as="geometry" />
+          <mxGeometry x="270" y="208" width="360" height="1252" as="geometry" />
         </mxCell>
         <mxCell id="-QrxRBGIXTvyxB3OS5xk-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="175" y="130" width="10" height="880" as="geometry" />
+          <mxGeometry x="175" y="130" width="10" height="1080" as="geometry" />
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="180" y="192" width="10" height="718" as="geometry" />
+          <mxGeometry x="180" y="192" width="10" height="988" as="geometry" />
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-2" value="processConfigBeanDefinitions()" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" target="-eeheK5-7ZrguBqARGBb-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -31,16 +31,16 @@
           <mxGeometry x="190" y="337" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="190" y="450" width="10" height="420" as="geometry" />
+          <mxGeometry x="190" y="450" width="10" height="690" as="geometry" />
         </mxCell>
-        <mxCell id="-eeheK5-7ZrguBqARGBb-16" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;loadBeanDefinitions()&lt;/font&gt;&lt;/b&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" source="-eeheK5-7ZrguBqARGBb-17" edge="1">
+        <mxCell id="-eeheK5-7ZrguBqARGBb-16" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;loadBeanDefinitions()&lt;/font&gt;&lt;/b&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;" parent="-QrxRBGIXTvyxB3OS5xk-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="695" as="sourcePoint" />
-            <mxPoint x="1424.9999999999995" y="694.9999999999998" as="targetPoint" />
+            <mxPoint x="200" y="883.9999999999998" as="sourcePoint" />
+            <mxPoint x="1424.9999999999995" y="883.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-QrxRBGIXTvyxB3OS5xk-1" vertex="1">
-          <mxGeometry x="200" y="742" width="10" height="80" as="geometry" />
+          <mxGeometry x="200" y="1022" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-QrxRBGIXTvyxB3OS5xk-56" value="&lt;span style=&quot;&quot;&gt;postProcessBeanDefinitionRegistry&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;fontSize=20;fontStyle=1;fontColor=#FF0000;" parent="1" target="-QrxRBGIXTvyxB3OS5xk-2" edge="1">
           <mxGeometry x="-0.0021" relative="1" as="geometry">
@@ -50,13 +50,35 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-QrxRBGIXTvyxB3OS5xk-58" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;ConfigurationClassPostProcessor&lt;/b&gt;.&lt;span style=&quot;text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;postProcessBeanDefinitionRegistry&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;方法&lt;/span&gt;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=20;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="610" y="1350" width="810" height="70" as="geometry" />
+          <mxGeometry x="630" y="1480" width="810" height="70" as="geometry" />
         </mxCell>
         <mxCell id="mUYwK8JGR3BNWhhx3xwo-4" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;ConfigurationClassParser&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="895" y="208" width="300" height="1082" as="geometry" />
+          <mxGeometry x="895" y="208" width="300" height="1252" as="geometry" />
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="mUYwK8JGR3BNWhhx3xwo-4" vertex="1">
-          <mxGeometry x="145" y="472" width="10" height="80" as="geometry" />
+          <mxGeometry x="145" y="472" width="10" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="kIuJvCQGpgL5YUa4oFDI-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="mUYwK8JGR3BNWhhx3xwo-4">
+          <mxGeometry x="150" y="527" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kIuJvCQGpgL5YUa4oFDI-2" value="&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 20px; font-weight: 700; text-align: center;&quot;&gt;parse()&lt;/span&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="kIuJvCQGpgL5YUa4oFDI-1" parent="mUYwK8JGR3BNWhhx3xwo-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="507" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="185" y="537" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIuJvCQGpgL5YUa4oFDI-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="mUYwK8JGR3BNWhhx3xwo-4">
+          <mxGeometry x="150" y="649" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kIuJvCQGpgL5YUa4oFDI-4" value="deferredImportSelectorHandler.process()：执行导入延迟处理器" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=20;" edge="1" target="kIuJvCQGpgL5YUa4oFDI-3" parent="mUYwK8JGR3BNWhhx3xwo-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="629" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="185" y="659" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-4" value="筛选未处理的含注解@Configuration配置类：扫描到的是启动类" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="476" y="450" width="589" height="45" as="geometry" />
@@ -65,32 +87,33 @@
           <mxGeometry x="480" y="560" width="550" height="45" as="geometry" />
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="1040" y="780" width="10" height="80" as="geometry" />
+          <mxGeometry x="1040" y="953" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-eeheK5-7ZrguBqARGBb-12" value="&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 20px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;（1）扫描注册自定义Bean；&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 20px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;（2）解析阶段，收集和解析配置信息：加载@Import，&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 20px; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;@ImportResource，@Bean，生成配置类模型，但不注册Bean定义&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="670" width="620" height="90" as="geometry" />
+        <mxCell id="-eeheK5-7ZrguBqARGBb-12" value="&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 20px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;（1）扫描注册自定义Bean；&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 20px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;（2）解析阶段，收集和解析配置信息：加载@Import，&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 20px; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;@ImportResource，@Bean，生成配置类模型，但不注册&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 20px; text-wrap-mode: nowrap; background-color: transparent;&quot;&gt;Bean定义&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="720" width="620" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-13" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;ConfigurationClassBeanDefinitionReader&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontSize=20;fontStyle=1;fontColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="1490" y="210" width="420" height="1080" as="geometry" />
+          <mxGeometry x="1490" y="210" width="420" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="-eeheK5-7ZrguBqARGBb-13" vertex="1">
-          <mxGeometry x="205" y="686" width="10" height="80" as="geometry" />
+          <mxGeometry x="205" y="870" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-9" value="parse()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;fontColor=#FF0000;fontStyle=1" parent="1" source="-eeheK5-7ZrguBqARGBb-17" target="-eeheK5-7ZrguBqARGBb-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="530" y="690" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-eeheK5-7ZrguBqARGBb-11" value="validate()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;" parent="1" source="-eeheK5-7ZrguBqARGBb-17" target="-eeheK5-7ZrguBqARGBb-10" edge="1">
+        <mxCell id="-eeheK5-7ZrguBqARGBb-11" value="validate()" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;fontSize=20;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="550" y="785" as="sourcePoint" />
+            <mxPoint x="470" y="962.9999999999998" as="sourcePoint" />
+            <mxPoint x="1039.9999999999995" y="962.9999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-19" value="从新加载的Bean中，查找新的@Configuration类，循环解析" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="491" y="960" width="559" height="45" as="geometry" />
+          <mxGeometry x="486" y="1250" width="559" height="45" as="geometry" />
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-20" value="注册阶段：加载@Import，&lt;div&gt;@ImportResource,@Bean注解定义的Bean，注册到Spring容器中&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="896" width="300" height="74" as="geometry" />
+          <mxGeometry x="1720" y="1080" width="300" height="74" as="geometry" />
         </mxCell>
         <mxCell id="-eeheK5-7ZrguBqARGBb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="8HlDPOHAcPrSxFD7tWNl-6" target="8HlDPOHAcPrSxFD7tWNl-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
